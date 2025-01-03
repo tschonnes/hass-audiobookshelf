@@ -33,7 +33,8 @@ RUN apk update && \
     make \
     python3 \
     g++ \
-    npm 
+    npm \
+    caddy
 
 ENV NODE_ENV=production
 
@@ -49,6 +50,6 @@ RUN npm ci --only=production
 
 RUN apk del make python3 g++
 
-EXPOSE 8081
+EXPOSE 13378
 
 #CMD ["node", "index.js"]

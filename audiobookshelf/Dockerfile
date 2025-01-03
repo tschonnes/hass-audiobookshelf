@@ -50,7 +50,6 @@ RUN npm ci --only=production
 
 RUN apk del make python3 g++
 
-EXPOSE 443
 EXPOSE 8081
 
 #CMD ["node", "index.js"]

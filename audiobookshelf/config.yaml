@@ -16,8 +16,8 @@ map:
   - ssl:ro
   - config:rw
 ports:
-  8081/tcp: 13378
+  13378/tcp: 13378
 environment:
   METADATA_PATH: /data/abs-metadata
   CONFIG_PATH: /data/abs-config
-  PORT: "8081"
+  PORT: "13378"

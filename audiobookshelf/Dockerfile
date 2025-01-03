@@ -33,8 +33,7 @@ RUN apk update && \
     make \
     python3 \
     g++ \
-    npm \
-    caddy
+    npm 
 
 ENV NODE_ENV=production
 
